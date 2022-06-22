@@ -1,3 +1,62 @@
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+
+    .footer span{
+        float: left;
+        margin-left: 1%;
+    }
+    div.content .end-content{
+        margin: 0rem;
+    }
+      
+}
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        width: 3rem;
+        text-align: center;
+        float: none;
+        -webkit-transition:width .2s linear;
+        transition:width .2s linear;
+    }
+}
+
 body {
     margin: 0;
     font-family: "Roboto";
@@ -45,6 +104,7 @@ div.content {
     flex-direction: column;
 }
 div.content .img-logo{
+    margin-top: 2rem;
     width: 310px;
     height: 122px;
     
@@ -62,7 +122,7 @@ div.content .middle-content h4{
 }
 
 div.content .end-content{
-    margin: 5rem 10rem 0rem 10rem;
+    margin: 5rem 9rem 0rem 9rem;
 }
 div.content .end-content h4{
     
@@ -74,8 +134,8 @@ div.content .end-content .end-content-text{
     vertical-align: top;
     
 }
-div.content br{
-    border-width: 2px;
+div.content .end-content .end-content-img{
+    float: left;
 }
 .footer {
     border: 2px;
@@ -87,25 +147,3 @@ div.content br{
     margin-left: 23%;
 }
   
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    .sidebar a {
-        float: left;
-    }
-
-    div.content {
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-}
