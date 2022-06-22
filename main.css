@@ -51,7 +51,7 @@ div.content .img-logo{
 }
 div.content .middle-content{
     background-color: #EFEFEF;
-    margin-top: 2rem;
+    margin: 5rem 10rem 0rem 10rem;
     padding: 2rem;
 }
 div.content .middle-content h4{
@@ -60,6 +60,33 @@ div.content .middle-content h4{
     justify-content: center;
     display: flex;
 }
+
+div.content .end-content{
+    margin: 5rem 10rem 0rem 10rem;
+}
+div.content .end-content h4{
+    
+    font-weight: 700;
+    justify-content: center;
+    /* display: flex; */
+}
+div.content .end-content .end-content-text{
+    vertical-align: top;
+    
+}
+div.content br{
+    border-width: 2px;
+}
+.footer {
+    border: 2px;
+    bottom: 0;
+    text-align: center;
+}
+.footer span{
+    float: left;
+    margin-left: 23%;
+}
+  
 @media screen and (max-width: 700px) {
     .sidebar {
         width: 100%;
